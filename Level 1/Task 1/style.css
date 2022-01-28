@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    
+    
+    color: white;
+    letter-spacing:1px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#footer:hover{
+    color:rgb(252, 123, 4);
+    position: sticky;
+    bottom: 0;
+    text-align:center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: large;
+    transition: 1s;
+      
+}
+/* font family of text below */
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: large;
+}
+
+#contactUs{
+    
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: larger;
+    
+}
+
+#contactInfo{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: larger;
+    
+    
+
+}
+
+.Para2{
+    text-align:right;
+    padding:100px;
+}
+
+#Img2{ 
+    margin-right: 10px; 
+}
+
+.Para2 {
+    direction: rtl;
+   }
+
+#button{
+    display: flex;
+    justify-content: center;
+    
+}
