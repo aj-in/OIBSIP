@@ -1,0 +1,25 @@
+import React from 'react'
+import "./Header.css";
+import PersonIcon from "@material-ui/icons/Person";
+import  IconButton  from '@material-ui/core/IconButton';
+import ForumIcon from "@material-ui/icons/Forum"
+
+function Header() {
+  return (
+    <div  className='header'>
+        
+    
+    <IconButton>
+    <PersonIcon fontSize='large' className='header__icon'/>
+    </IconButton>
+
+    <img className='header__logo' src="data:image/png;base64,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"/>
+
+    <IconButton>
+    <ForumIcon fontSize='large' className='header__icon'/>
+    </IconButton>
+    </div>
+  )
+}
+
+export default Header
